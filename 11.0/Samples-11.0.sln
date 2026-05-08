@@ -1,0 +1,46 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.0.0
+MinimumVisualStudioVersion = 10.0.40219.1
+# Top-level solution explicitly enumerating every .NET MAUI 11 sample under 11.0/.
+# Keeps the module wired so static-analysis and CI cannot mistake it for dead code,
+# even though the recursive csproj walker in .github/workflows/build-all.yml would
+# also discover these projects on its own. Mirror new 11.0 samples here.
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongPressGesture", "UserInterface\Gestures\LongPressGesture\LongPressGesture\LongPressGesture.csproj", "{81DB6CBB-37E9-4250-9BEF-1915E1226EE9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvalidateStyleDemo", "UserInterface\Styles\InvalidateStyleDemo\InvalidateStyleDemo.csproj", "{98603DD4-34F9-4BF2-BCA9-F9411A05A3CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MapClustering", "UserInterface\Views\Map\MapClustering\MapClustering.csproj", "{53BA0446-45FA-4B91-8E23-D643D6532DCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81DB6CBB-37E9-4250-9BEF-1915E1226EE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81DB6CBB-37E9-4250-9BEF-1915E1226EE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81DB6CBB-37E9-4250-9BEF-1915E1226EE9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{81DB6CBB-37E9-4250-9BEF-1915E1226EE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81DB6CBB-37E9-4250-9BEF-1915E1226EE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81DB6CBB-37E9-4250-9BEF-1915E1226EE9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{98603DD4-34F9-4BF2-BCA9-F9411A05A3CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98603DD4-34F9-4BF2-BCA9-F9411A05A3CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98603DD4-34F9-4BF2-BCA9-F9411A05A3CD}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{98603DD4-34F9-4BF2-BCA9-F9411A05A3CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98603DD4-34F9-4BF2-BCA9-F9411A05A3CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98603DD4-34F9-4BF2-BCA9-F9411A05A3CD}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{53BA0446-45FA-4B91-8E23-D643D6532DCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53BA0446-45FA-4B91-8E23-D643D6532DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53BA0446-45FA-4B91-8E23-D643D6532DCF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{53BA0446-45FA-4B91-8E23-D643D6532DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53BA0446-45FA-4B91-8E23-D643D6532DCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53BA0446-45FA-4B91-8E23-D643D6532DCF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52734BAA-2A02-4E71-8905-B0ED4CE800AC}
+	EndGlobalSection
+EndGlobal
