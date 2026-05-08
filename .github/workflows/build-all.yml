@@ -1,5 +1,21 @@
 name: Build All C# Projects in Repo
 
+# Test-coverage strategy (see docs/test-coverage-strategy.md):
+#   - 9.0/  : sample code   — INCLUDED. Every *.csproj built via the recursive
+#             discovery loop below. Build success is the contract.
+#   - 10.0/ : sample code   — INCLUDED. Same as above.
+#   - 11.0/ : sample code   — INCLUDED. The setup-dotnet step installs the
+#             11.0.x SDK so any *.csproj added under 11.0/ builds automatically.
+#   - .github/   : tooling     — N/A. Workflow YAML is validated by GitHub.
+#   - Upgrading/ : docs+sample — INCLUDED for any *.csproj it contains;
+#                  Markdown prose is verified by code review.
+#   - Images/    : assets      — N/A. No buildable code.
+#   - eng/       : tooling     — N/A. Consumed by this workflow at run time
+#                  (excluded_projects_*.txt). Bad entries surface as build
+#                  failures or unexpected inclusions in the job summary.
+# Per-module exclusions (e.g. iOS-only samples on Windows runners) live in
+# eng/excluded_projects_<os>.txt with a comment explaining each entry.
+
 on:
   workflow_dispatch:
 

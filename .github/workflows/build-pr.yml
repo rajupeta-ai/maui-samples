@@ -1,5 +1,16 @@
 name: Build Changed C# Projects for PR
 
+# Test-coverage strategy (see docs/test-coverage-strategy.md):
+# This PR workflow only builds projects whose files changed. Module coverage
+# expectations are the same as build-all.yml:
+#   - 9.0/, 10.0/, 11.0/ (versioned sample code) — INCLUDED. A change inside
+#     any of these triggers `dotnet build` for the owning *.csproj.
+#   - .github/   — N/A. Workflow YAML is validated by GitHub on every push.
+#   - Upgrading/ — INCLUDED for buildable *.csproj content; prose changes
+#                  fall under `paths-ignore: '**.md'` above and skip the build.
+#   - Images/    — N/A. Binary assets only; covered by the Markdown ignore.
+#   - eng/       — N/A. Configuration consumed by this workflow at run time.
+
 on:
   pull_request:
     paths-ignore:
