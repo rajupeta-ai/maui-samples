@@ -1,0 +1,47 @@
+name: Verify Versioned Modules (9.0 / 10.0 / 11.0)
+
+# Explicit guard for the versioned MAUI sample modules. Runs on every push and
+# pull request so the 11.0 module — and its top-level Samples-11.0.sln — can
+# never silently fall out of the build matrix (TICKET-001).
+#
+# Why a dedicated workflow rather than only relying on build-all.yml's
+# recursive csproj scan: that recursion is implicit. If the 11.0/ directory
+# were renamed, deleted, or its solution drifted from the actual csproj set,
+# the recursion would either skip projects without warning or quietly find
+# zero. This job names each module explicitly and fails the matrix loudly
+# in that case.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    paths:
+      - '9.0/**'
+      - '10.0/**'
+      - '11.0/**'
+      - 'eng/Verify-VersionedModules.ps1'
+      - '.github/workflows/verify-versioned-modules.yml'
+  workflow_dispatch:
+
+jobs:
+  verify:
+    name: Verify ${{ matrix.module }} module wiring
+    strategy:
+      fail-fast: false
+      matrix:
+        # Each module is named explicitly so the build matrix references them
+        # by name in the GitHub Actions UI and step summary.
+        module: ['9.0', '10.0', '11.0']
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Verify versioned modules
+        shell: pwsh
+        run: ./eng/Verify-VersionedModules.ps1
+
+      - name: Note module under verification
+        run: echo "Verified module ${{ matrix.module }}" >> $GITHUB_STEP_SUMMARY
