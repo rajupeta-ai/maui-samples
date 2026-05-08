@@ -1,0 +1,140 @@
+path,category,reason
+Upgrading/CustomRenderer/MauiCustomRenderer/App.xaml,active-code-maui,Active .NET MAUI source compiled by CI
+Upgrading/CustomRenderer/MauiCustomRenderer/App.xaml.cs,active-code-maui,Active .NET MAUI source compiled by CI
+Upgrading/CustomRenderer/MauiCustomRenderer/Controls/PressableView.cs,active-code-maui,Active .NET MAUI source compiled by CI
+Upgrading/CustomRenderer/MauiCustomRenderer/MainPage.xaml,active-code-maui,Active .NET MAUI source compiled by CI
+Upgrading/CustomRenderer/MauiCustomRenderer/MainPage.xaml.cs,active-code-maui,Active .NET MAUI source compiled by CI
+Upgrading/CustomRenderer/MauiCustomRenderer/MauiCustomRenderer.csproj,active-build,MAUI build descriptor (built by build-all.yml/build-pr.yml)
+Upgrading/CustomRenderer/MauiCustomRenderer/MauiCustomRenderer.sln,active-build,MAUI build descriptor (built by build-all.yml/build-pr.yml)
+Upgrading/CustomRenderer/MauiCustomRenderer/MauiProgram.cs,active-code-maui,Active .NET MAUI source compiled by CI
+Upgrading/CustomRenderer/MauiCustomRenderer/Platforms/Android/AndroidManifest.xml,active-code-maui,Platform manifest or config consumed by build
+Upgrading/CustomRenderer/MauiCustomRenderer/Platforms/Android/MainActivity.cs,active-code-maui,Active .NET MAUI source compiled by CI
+Upgrading/CustomRenderer/MauiCustomRenderer/Platforms/Android/MainApplication.cs,active-code-maui,Active .NET MAUI source compiled by CI
+Upgrading/CustomRenderer/MauiCustomRenderer/Platforms/Android/Renderers/PressableViewRenderer.cs,active-code-maui,Active .NET MAUI source compiled by CI
+Upgrading/CustomRenderer/MauiCustomRenderer/Platforms/Android/Resources/values/colors.xml,active-code-maui,Platform manifest or config consumed by build
+Upgrading/CustomRenderer/MauiCustomRenderer/Platforms/MacCatalyst/AppDelegate.cs,active-code-maui,Active .NET MAUI source compiled by CI
+Upgrading/CustomRenderer/MauiCustomRenderer/Platforms/MacCatalyst/Info.plist,active-code-maui,Platform manifest or config consumed by build
+Upgrading/CustomRenderer/MauiCustomRenderer/Platforms/MacCatalyst/Program.cs,active-code-maui,Active .NET MAUI source compiled by CI
+Upgrading/CustomRenderer/MauiCustomRenderer/Platforms/Tizen/Main.cs,active-code-maui,Active .NET MAUI source compiled by CI
+Upgrading/CustomRenderer/MauiCustomRenderer/Platforms/Tizen/tizen-manifest.xml,active-code-maui,Platform manifest or config consumed by build
+Upgrading/CustomRenderer/MauiCustomRenderer/Platforms/Windows/App.xaml,active-code-maui,Active .NET MAUI source compiled by CI
+Upgrading/CustomRenderer/MauiCustomRenderer/Platforms/Windows/App.xaml.cs,active-code-maui,Active .NET MAUI source compiled by CI
+Upgrading/CustomRenderer/MauiCustomRenderer/Platforms/Windows/Package.appxmanifest,active-code-maui,Platform manifest or config consumed by build
+Upgrading/CustomRenderer/MauiCustomRenderer/Platforms/Windows/app.manifest,active-code-maui,Platform manifest or config consumed by build
+Upgrading/CustomRenderer/MauiCustomRenderer/Platforms/iOS/AppDelegate.cs,active-code-maui,Active .NET MAUI source compiled by CI
+Upgrading/CustomRenderer/MauiCustomRenderer/Platforms/iOS/Info.plist,active-code-maui,Platform manifest or config consumed by build
+Upgrading/CustomRenderer/MauiCustomRenderer/Platforms/iOS/Program.cs,active-code-maui,Active .NET MAUI source compiled by CI
+Upgrading/CustomRenderer/MauiCustomRenderer/Platforms/iOS/Renderers/PressableViewRenderer.cs,active-code-maui,Active .NET MAUI source compiled by CI
+Upgrading/CustomRenderer/MauiCustomRenderer/Properties/launchSettings.json,active-code-maui,Platform manifest or config consumed by build
+Upgrading/CustomRenderer/MauiCustomRenderer/Resources/Colors.xaml,active-code-maui,Active .NET MAUI source compiled by CI
+Upgrading/CustomRenderer/MauiCustomRenderer/Resources/Fonts/OpenSans-Regular.ttf,resource-binary,App icon / image / font asset
+Upgrading/CustomRenderer/MauiCustomRenderer/Resources/Fonts/OpenSans-Semibold.ttf,resource-binary,App icon / image / font asset
+Upgrading/CustomRenderer/MauiCustomRenderer/Resources/Images/dotnet_bot.svg,resource-binary,App icon / image / font asset
+Upgrading/CustomRenderer/MauiCustomRenderer/Resources/Raw/AboutAssets.txt,resource-text,Sample resource note (e.g. AboutAssets.txt)
+Upgrading/CustomRenderer/MauiCustomRenderer/Resources/Styles.xaml,active-code-maui,Active .NET MAUI source compiled by CI
+Upgrading/CustomRenderer/MauiCustomRenderer/Resources/appicon.svg,resource-binary,App icon / image / font asset
+Upgrading/CustomRenderer/MauiCustomRenderer/Resources/appiconfg.svg,resource-binary,App icon / image / font asset
+Upgrading/CustomRenderer/MultiProject/Entry/Android/Assets/AboutAssets.txt,resource-text,Sample resource note (e.g. AboutAssets.txt)
+Upgrading/CustomRenderer/MultiProject/Entry/Android/CustomRenderer.Android.csproj,active-build,MAUI build descriptor (built by build-all.yml/build-pr.yml)
+Upgrading/CustomRenderer/MultiProject/Entry/Android/MainActivity.cs,active-code-maui,Active .NET MAUI source compiled by CI
+Upgrading/CustomRenderer/MultiProject/Entry/Android/MainApplication.cs,active-code-maui,Active .NET MAUI source compiled by CI
+Upgrading/CustomRenderer/MultiProject/Entry/Android/MauiProgram.cs,active-code-maui,Active .NET MAUI source compiled by CI
+Upgrading/CustomRenderer/MultiProject/Entry/Android/MyEntryRenderer.cs,active-code-maui,Active .NET MAUI source compiled by CI
+Upgrading/CustomRenderer/MultiProject/Entry/Android/Properties/AndroidManifest.xml,active-code-maui,Platform manifest or config consumed by build
+Upgrading/CustomRenderer/MultiProject/Entry/Android/Resources/AboutResources.txt,resource-text,Sample resource note (e.g. AboutAssets.txt)
+Upgrading/CustomRenderer/MultiProject/Entry/Android/Resources/drawable/Icon.png,resource-binary,App icon / image / font asset
+Upgrading/CustomRenderer/MultiProject/Entry/Android/Resources/layout/Main.axml,active-code-maui,Platform manifest or config consumed by build
+Upgrading/CustomRenderer/MultiProject/Entry/Android/Resources/values/Strings.xml,active-code-maui,Platform manifest or config consumed by build
+Upgrading/CustomRenderer/MultiProject/Entry/Android/Resources/values/colors.xml,active-code-maui,Platform manifest or config consumed by build
+Upgrading/CustomRenderer/MultiProject/Entry/Android/Resources/values/styles.xml,active-code-maui,Platform manifest or config consumed by build
+Upgrading/CustomRenderer/MultiProject/Entry/CustomRenderer.sln,active-build,MAUI build descriptor (built by build-all.yml/build-pr.yml)
+Upgrading/CustomRenderer/MultiProject/Entry/CustomRenderer/App.cs,active-code-maui,Active .NET MAUI source compiled by CI
+Upgrading/CustomRenderer/MultiProject/Entry/CustomRenderer/CustomRenderer.csproj,active-build,MAUI build descriptor (built by build-all.yml/build-pr.yml)
+Upgrading/CustomRenderer/MultiProject/Entry/CustomRenderer/MainPage.cs,active-code-maui,Active .NET MAUI source compiled by CI
+Upgrading/CustomRenderer/MultiProject/Entry/CustomRenderer/MainPageXaml.xaml,active-code-maui,Active .NET MAUI source compiled by CI
+Upgrading/CustomRenderer/MultiProject/Entry/CustomRenderer/MainPageXaml.xaml.cs,active-code-maui,Active .NET MAUI source compiled by CI
+Upgrading/CustomRenderer/MultiProject/Entry/CustomRenderer/MauiProgram.cs,active-code-maui,Active .NET MAUI source compiled by CI
+Upgrading/CustomRenderer/MultiProject/Entry/CustomRenderer/MyEntry.cs,active-code-maui,Active .NET MAUI source compiled by CI
+Upgrading/CustomRenderer/MultiProject/Entry/README.md,documentation,Active sample documentation
+Upgrading/CustomRenderer/MultiProject/Entry/Screenshots/01Android.png,resource-binary,App icon / image / font asset
+Upgrading/CustomRenderer/MultiProject/Entry/Screenshots/01UWP.PNG,resource-binary,App icon / image / font asset
+Upgrading/CustomRenderer/MultiProject/Entry/Screenshots/01iOS.png,resource-binary,App icon / image / font asset
+Upgrading/CustomRenderer/MultiProject/Entry/Screenshots/all.png,resource-binary,App icon / image / font asset
+Upgrading/CustomRenderer/MultiProject/Entry/UpgradeReport.sarif,tooling-output,.NET Upgrade Assistant output preserved as evidence
+Upgrading/CustomRenderer/MultiProject/Entry/iOS/AppDelegate.cs,active-code-maui,Active .NET MAUI source compiled by CI
+Upgrading/CustomRenderer/MultiProject/Entry/iOS/CustomRenderer.iOS.csproj,active-build,MAUI build descriptor (built by build-all.yml/build-pr.yml)
+Upgrading/CustomRenderer/MultiProject/Entry/iOS/Entitlements.plist,active-code-maui,Platform manifest or config consumed by build
+Upgrading/CustomRenderer/MultiProject/Entry/iOS/Info.plist,active-code-maui,Platform manifest or config consumed by build
+Upgrading/CustomRenderer/MultiProject/Entry/iOS/Main.cs,active-code-maui,Active .NET MAUI source compiled by CI
+Upgrading/CustomRenderer/MultiProject/Entry/iOS/MauiProgram.cs,active-code-maui,Active .NET MAUI source compiled by CI
+Upgrading/CustomRenderer/MultiProject/Entry/iOS/MyEntryRenderer.cs,active-code-maui,Active .NET MAUI source compiled by CI
+Upgrading/CustomRenderer/MultiProject/Entry/iOS/Resources/Default-568h@2x.png,resource-binary,App icon / image / font asset
+Upgrading/CustomRenderer/MultiProject/Entry/iOS/Resources/Default.png,resource-binary,App icon / image / font asset
+Upgrading/CustomRenderer/MultiProject/Entry/iOS/Resources/Default@2x.png,resource-binary,App icon / image / font asset
+Upgrading/CustomRenderer/MultiProject/Entry/iOS/Resources/Icon-60@2x.png,resource-binary,App icon / image / font asset
+Upgrading/CustomRenderer/MultiProject/Entry/iOS/Resources/Icon-76.png,resource-binary,App icon / image / font asset
+Upgrading/CustomRenderer/MultiProject/Entry/iOS/Resources/Icon-76@2x.png,resource-binary,App icon / image / font asset
+Upgrading/CustomRenderer/MultiProject/Entry/iOS/Resources/Icon-Small-40.png,resource-binary,App icon / image / font asset
+Upgrading/CustomRenderer/MultiProject/Entry/iOS/Resources/Icon-Small-40@2x.png,resource-binary,App icon / image / font asset
+Upgrading/CustomRenderer/MultiProject/Entry/iOS/Resources/Icon-Small.png,resource-binary,App icon / image / font asset
+Upgrading/CustomRenderer/MultiProject/Entry/iOS/Resources/Icon-Small@2x.png,resource-binary,App icon / image / font asset
+Upgrading/CustomRenderer/MultiProject/Entry/upgrade-assistant.clef,tooling-output,.NET Upgrade Assistant output preserved as evidence
+Upgrading/CustomRenderer/MultiProject/README.md,documentation,Active sample documentation
+Upgrading/CustomRenderer/README.md,documentation,Active sample documentation
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.sln,reference-xamarin-build,Archived Xamarin project descriptor (excluded from CI)
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.Android/Assets/AboutAssets.txt,reference-xamarin,Archived Xamarin project source kept for before/after comparison
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.Android/MainActivity.cs,reference-xamarin,Archived Xamarin project source kept for before/after comparison
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.Android/Properties/AndroidManifest.xml,reference-xamarin,Archived Xamarin project source kept for before/after comparison
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.Android/Properties/AssemblyInfo.cs,reference-xamarin,Archived Xamarin project source kept for before/after comparison
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.Android/Renderers/PressableViewRenderer.cs,reference-xamarin,Archived Xamarin project source kept for before/after comparison
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.Android/Resources/AboutResources.txt,reference-xamarin-resource,Archived Xamarin project resource
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.Android/Resources/mipmap-anydpi-v26/icon.xml,reference-xamarin-resource,Archived Xamarin project resource
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.Android/Resources/mipmap-anydpi-v26/icon_round.xml,reference-xamarin-resource,Archived Xamarin project resource
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.Android/Resources/mipmap-hdpi/icon.png,reference-xamarin-resource,Archived Xamarin project resource
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.Android/Resources/mipmap-hdpi/launcher_foreground.png,reference-xamarin-resource,Archived Xamarin project resource
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.Android/Resources/mipmap-mdpi/icon.png,reference-xamarin-resource,Archived Xamarin project resource
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.Android/Resources/mipmap-mdpi/launcher_foreground.png,reference-xamarin-resource,Archived Xamarin project resource
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.Android/Resources/mipmap-xhdpi/icon.png,reference-xamarin-resource,Archived Xamarin project resource
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.Android/Resources/mipmap-xhdpi/launcher_foreground.png,reference-xamarin-resource,Archived Xamarin project resource
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.Android/Resources/mipmap-xxhdpi/icon.png,reference-xamarin-resource,Archived Xamarin project resource
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.Android/Resources/mipmap-xxhdpi/launcher_foreground.png,reference-xamarin-resource,Archived Xamarin project resource
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.Android/Resources/mipmap-xxxhdpi/icon.png,reference-xamarin-resource,Archived Xamarin project resource
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.Android/Resources/mipmap-xxxhdpi/launcher_foreground.png,reference-xamarin-resource,Archived Xamarin project resource
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.Android/Resources/values/colors.xml,reference-xamarin-resource,Archived Xamarin project resource
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.Android/Resources/values/styles.xml,reference-xamarin-resource,Archived Xamarin project resource
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.Android/XamarinCustomRenderer.Android.csproj,reference-xamarin-build,Archived Xamarin project descriptor (excluded from CI)
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.iOS/AppDelegate.cs,reference-xamarin,Archived Xamarin project source kept for before/after comparison
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.iOS/Assets.xcassets/AppIcon.appiconset/Contents.json,reference-xamarin-resource,Archived Xamarin project resource
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.iOS/Assets.xcassets/AppIcon.appiconset/Icon1024.png,reference-xamarin-resource,Archived Xamarin project resource
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.iOS/Assets.xcassets/AppIcon.appiconset/Icon120.png,reference-xamarin-resource,Archived Xamarin project resource
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.iOS/Assets.xcassets/AppIcon.appiconset/Icon152.png,reference-xamarin-resource,Archived Xamarin project resource
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.iOS/Assets.xcassets/AppIcon.appiconset/Icon167.png,reference-xamarin-resource,Archived Xamarin project resource
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.iOS/Assets.xcassets/AppIcon.appiconset/Icon180.png,reference-xamarin-resource,Archived Xamarin project resource
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.iOS/Assets.xcassets/AppIcon.appiconset/Icon20.png,reference-xamarin-resource,Archived Xamarin project resource
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.iOS/Assets.xcassets/AppIcon.appiconset/Icon29.png,reference-xamarin-resource,Archived Xamarin project resource
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.iOS/Assets.xcassets/AppIcon.appiconset/Icon40.png,reference-xamarin-resource,Archived Xamarin project resource
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.iOS/Assets.xcassets/AppIcon.appiconset/Icon58.png,reference-xamarin-resource,Archived Xamarin project resource
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.iOS/Assets.xcassets/AppIcon.appiconset/Icon60.png,reference-xamarin-resource,Archived Xamarin project resource
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.iOS/Assets.xcassets/AppIcon.appiconset/Icon76.png,reference-xamarin-resource,Archived Xamarin project resource
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.iOS/Assets.xcassets/AppIcon.appiconset/Icon80.png,reference-xamarin-resource,Archived Xamarin project resource
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.iOS/Assets.xcassets/AppIcon.appiconset/Icon87.png,reference-xamarin-resource,Archived Xamarin project resource
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.iOS/Entitlements.plist,reference-xamarin,Archived Xamarin project source kept for before/after comparison
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.iOS/Info.plist,reference-xamarin,Archived Xamarin project source kept for before/after comparison
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.iOS/Main.cs,reference-xamarin,Archived Xamarin project source kept for before/after comparison
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.iOS/Properties/AssemblyInfo.cs,reference-xamarin,Archived Xamarin project source kept for before/after comparison
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.iOS/Renderers/PressableViewRenderer.cs,reference-xamarin,Archived Xamarin project source kept for before/after comparison
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.iOS/Resources/Default-568h@2x.png,reference-xamarin-resource,Archived Xamarin project resource
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.iOS/Resources/Default-Portrait.png,reference-xamarin-resource,Archived Xamarin project resource
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.iOS/Resources/Default-Portrait@2x.png,reference-xamarin-resource,Archived Xamarin project resource
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.iOS/Resources/Default.png,reference-xamarin-resource,Archived Xamarin project resource
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.iOS/Resources/Default@2x.png,reference-xamarin-resource,Archived Xamarin project resource
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.iOS/Resources/LaunchScreen.storyboard,reference-xamarin-resource,Archived Xamarin project resource
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.iOS/XamarinCustomRenderer.iOS.csproj,reference-xamarin-build,Archived Xamarin project descriptor (excluded from CI)
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/App.xaml,reference-xamarin,Archived Xamarin project source kept for before/after comparison
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/App.xaml.cs,reference-xamarin,Archived Xamarin project source kept for before/after comparison
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/AssemblyInfo.cs,reference-xamarin,Archived Xamarin project source kept for before/after comparison
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/Controls/PressableView.cs,reference-xamarin,Archived Xamarin project source kept for before/after comparison
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/MainPage.xaml,reference-xamarin,Archived Xamarin project source kept for before/after comparison
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/MainPage.xaml.cs,reference-xamarin,Archived Xamarin project source kept for before/after comparison
+Upgrading/CustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer/XamarinCustomRenderer.csproj,reference-xamarin-build,Archived Xamarin project descriptor (excluded from CI)
+Upgrading/README.md,documentation,Active sample documentation
