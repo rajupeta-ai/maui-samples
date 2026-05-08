@@ -361,3 +361,8 @@ Resource.designer.cs
 10.0/AI/ChatClientWithMobile/src/ChatMobile.Api/appsettings.json
 10.0/AI/ChatClientWithMobile/src/ChatMobile.Api/appsettings.Development.json
 .vscode/settings.json
+
+# Claude Code agent files
+.claude/
+.claudeignore
+CLAUDE.md
