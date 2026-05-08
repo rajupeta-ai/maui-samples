@@ -1,0 +1,30 @@
+name: Validate Upgrading Manifest
+
+on:
+  pull_request:
+    paths:
+      - 'Upgrading/**'
+      - 'eng/excluded_projects_*.txt'
+      - 'eng/Validate-UpgradingManifest.ps1'
+      - '.github/workflows/validate-upgrading.yml'
+  push:
+    branches:
+      - main
+    paths:
+      - 'Upgrading/**'
+      - 'eng/excluded_projects_*.txt'
+      - 'eng/Validate-UpgradingManifest.ps1'
+      - '.github/workflows/validate-upgrading.yml'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    name: Validate Upgrading manifest
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run manifest validator
+        shell: pwsh
+        run: ./eng/Validate-UpgradingManifest.ps1
