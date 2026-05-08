@@ -1,0 +1,26 @@
+name: Verify Test Coverage Strategy Doc
+
+# Runs eng/verify-coverage-strategy.sh whenever the strategy document, the
+# CONTRIBUTING guide, or the verification script itself changes. The script
+# enforces that every required top-level module has an entry in
+# docs/test-coverage-strategy.md and that CONTRIBUTING.md links to it
+# (acceptance criteria for TICKET-008).
+
+on:
+  pull_request:
+    paths:
+      - 'docs/test-coverage-strategy.md'
+      - 'CONTRIBUTING.md'
+      - 'eng/verify-coverage-strategy.sh'
+      - '.github/workflows/verify-coverage-strategy.yml'
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run coverage-strategy verification
+        run: bash eng/verify-coverage-strategy.sh

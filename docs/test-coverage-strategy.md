@@ -141,6 +141,19 @@ When you add a new top-level directory:
   `UITesting/...Sample` directory; they require Appium and a configured
   device/simulator.
 
+## Verifying this document
+
+A small bash check at [`eng/verify-coverage-strategy.sh`](../eng/verify-coverage-strategy.sh)
+asserts that every required module appears in this file and that
+`CONTRIBUTING.md` links here. It is wired into
+[`.github/workflows/verify-coverage-strategy.yml`](../.github/workflows/verify-coverage-strategy.yml)
+and runs on any PR that touches the strategy doc, the contributor guide, or
+the script itself. Run it locally with:
+
+```sh
+bash eng/verify-coverage-strategy.sh
+```
+
 ## Source findings addressed
 
 This strategy responds to the following analyzer findings:
